@@ -1,6 +1,9 @@
 # 这是我的第一个博客网站
 # This is my very first blog website
 #
+# 链接
+# Link
+### https://easonqys.github.io/myblog/
 #
 ### 很开心能够找到这样的一种建立博客的方式！
 ### I am glad to have a way to share my feelings in this blog.
@@ -8,8 +11,8 @@
 ### `fastpages`让我很方便地将Jupyter、word都能以html形式发布！
 ### `fastpages`gives us a convinient way to post documents by a correct form.
 #
-# 链接
-https://easonqys.github.io/myblog/
+#
+#
 #
 #
 #
