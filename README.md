@@ -8,7 +8,8 @@
 ### `fastpages`让我很方便地将Jupyter、word都能以html形式发布！
 ### `fastpages`gives us a convinient way to post documents by a correct form.
 #
-#
+# 链接
+https://easonqys.github.io/myblog/
 #
 #
 #
