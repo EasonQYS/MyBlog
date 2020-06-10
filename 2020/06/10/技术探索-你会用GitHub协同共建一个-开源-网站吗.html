@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>技术探索·你会用github协同共建一个“开源”网站吗？ | Yik-shing’s Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="技术探索·你会用github协同共建一个“开源”网站吗？" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="技术探索 你会用GitHub协同共建一个“开源”网站吗？" />
+<meta property="og:description" content="技术探索 你会用GitHub协同共建一个“开源”网站吗？" />
+<link rel="canonical" href="/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html" />
+<meta property="og:url" content="/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html" />
+<meta property="og:site_name" content="Yik-shing’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-10T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"技术探索 你会用GitHub协同共建一个“开源”网站吗？","@type":"BlogPosting","headline":"技术探索·你会用github协同共建一个“开源”网站吗？","dateModified":"2020-06-10T00:00:00-05:00","datePublished":"2020-06-10T00:00:00-05:00","url":"/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html","mainEntityOfPage":{"@type":"WebPage","@id":"/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/myblog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/myblog/feed.xml" title="Yik-shing's Blog" /><link rel="shortcut icon" type="image/x-icon" href="/myblog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>技术探索·你会用github协同共建一个“开源”网站吗？ | Yik-shing’s Blog</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="技术探索·你会用github协同共建一个“开源”网站吗？" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="技术探索 你会用GitHub协同共建一个“开源”网站吗？" />
+<meta property="og:description" content="技术探索 你会用GitHub协同共建一个“开源”网站吗？" />
+<link rel="canonical" href="/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html" />
+<meta property="og:url" content="/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html" />
+<meta property="og:site_name" content="Yik-shing’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-10T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"技术探索 你会用GitHub协同共建一个“开源”网站吗？","@type":"BlogPosting","headline":"技术探索·你会用github协同共建一个“开源”网站吗？","dateModified":"2020-06-10T00:00:00-05:00","datePublished":"2020-06-10T00:00:00-05:00","url":"/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html","mainEntityOfPage":{"@type":"WebPage","@id":"/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="/myblog/feed.xml" title="Yik-shing's Blog" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/myblog/">Yik-shing&#39;s Blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/myblog/about/">关于我</a><a class="page-link" href="/myblog/search/">查找</a><a class="page-link" href="/myblog/categories/">标签</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">技术探索·你会用github协同共建一个“开源”网站吗？</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-06-10T00:00:00-05:00" itemprop="datePublished">
+        Jun 10, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <table>
+  <tbody>
+    <tr>
+      <td>技术探索</td>
+      <td>你会用GitHub协同共建一个“开源”网站吗？</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>原创  谢作如 邱奕盛  <a href="javascript:void\(0\);"><span class="underline">中国信息技术教育</span></a>  5月19日</p>
+
+<p>随着安卓智能手机的普及，“开源”这一名词逐渐被大众接受。</p>
+
+<p>教育部发布的《普通高中信息技术课程标准（2017年版）》，要求重点普及“开源”思想，引导学生理解并自觉践行开源的理念与知识分享的精神。</p>
+
+<p>如何与更多的人一起分享自己的学习心得？除了在公共平台发表文章外，做一个网站也是一个重要的途径。</p>
+
+<p>但对很多人来说，做网站似乎是一个专业的技能，会涉及域名购买、解析等，其实做一个网站并没有那么难，只要会用GitHub就可以了。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image1.png" alt="" /></p>
+
+<p>图 1 GitHub网站</p>
+
+<p>用GitHub建站的可行性分析</p>
+
+<p>GitHub是全球最大的代码共享平台，准确地说，Git Hub是一个面向开源及私有软件项目的托管平台。</p>
+
+<p>除了支持Git（一个开源的分布式版本控制系统）外，GitHub还提供了很多有趣的功能，如GitHubPages。选择GitHub Pages来建网站，理由有如下三个：</p>
+
+<p><em><strong>使用方便。</strong>Git Hub Pages集成在GitHub中，直接和代码管理绑定在一起。采用代码更新命令进行自动部署，使用起来非常方便。维护方面同时支持在线管理和客户端管理两种方式。</em></p>
+
+<p><em><strong>免费。</strong>GitHub免费提供了“username.git hub.io”的域名，还支持自定义域名，几乎等同于一个免费的静态网站服务器。</em></p>
+
+<p><em><strong>无数量限制。</strong>Git Hub Pages没有数量使用限制，每一个Reposit or y（仓库）都可以部署为一个静态网站。</em></p>
+
+<p>当然，如果仅仅是发布静态网站，那么更新网站就会变得很无趣。最近，GitHub的程序员发布了FastPages 的工具，能够将文档直接转换为网页。支持的文档类型很多，如Word、MarkDown和Jupyter等。也就是说只要按照规范上传文档，主页会自动进行更新。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image2.png" alt="" /></p>
+
+<p>图2 用FastPages生成的网站</p>
+
+<p>建立GitHub Pages的步骤介绍</p>
+
+<p>首先需要注册GitHub用户。有了用户后，再建一个名称为“username.github.io”的Repositor y（仓库），一个静态网站就建好了。</p>
+
+<p><em>例如，笔者的用户名是“xiezuoru”，这个库的名称就是“xiezuoru.github.io”。然后，在这个Repositor y的根目录下建一个名称为“i ndex.ht ml ”的文件，输入HTML代码，主页就产生了。访问“xiezuoru.github.io”，即可看到主页的效果。</em></p>
+
+<p>如何设计一个精美的网站？</p>
+
+<p>如果对HT M L语言不熟悉，就需要用一些专业的网页设计工具，如DreamWeaver、Avocode。</p>
+
+<p>如果对页面的要求不高，最简单的办法就是用Word。上传文件则推荐用Git Hub客户端工具，它会自动比较本地目录和云端仓库的更新状态，类似云盘。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image3.png" alt="" /></p>
+
+<p>图 3 谢作如的GitHub Pages</p>
+
+<p>利用FastPages实现自动转换文档</p>
+
+<p>要实现自动转换文档为网页，需要建一个具备“FastPages”功能的仓库。这个仓库不能自己建立，也不能用“fork”功能来产生，而是要通过一个特定的仓库“generate”（生成）。</p>
+
+<p>具备Fast Pages功能的原始仓库是“fast ai/fast pages”，访问地址为ht tps://github.com/fastai/fastpages。考虑到“fastai/fastpages”是英文版，笔者汉化了一个仓库，名称为“Eas onQYS/fastpagesJupyter”，访问地址为：https://github.com/EasonQYS/f a s t p a g e s Ju p y t e r/。</p>
+
+<p>在这个地址的后面加上“g e n e r a t e”，即https://github.com/EasonQYS/fastpagesJupyter/generate。或者在readme页面中点击生成网站的链接，然后在跳出的页面中，给这个仓库起一个名称。仓库名称没有规定，只要不使用“user name.github.io”就可以。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image4.png" alt="" /></p>
+
+<p>图4 Fastpages的中文版本</p>
+
+<p>仓库建立成功后，等待大约30秒左右的时间，注册GitHub的邮箱会收到一封英文邮件。按照邮件的要求，生成一对SSH密钥，分别填写在指定的网页中，这里不再赘述。访问“username.github.i o/repository”就能看到这个新主页了。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image5.png" alt="" /></p>
+
+<p>图 5 收到的英文邮件</p>
+
+<p>例如，笔者的Fast Pages 地址就是https://xiezuoru.github.io/blog/。需要注意的是，无论是否填写密钥，这个页面都能看到，对应的文件就是“i nde x.ht ml ”。只不过没有填写密钥，这个网页文件将不能自动更新。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image6.png" alt="" /></p>
+
+<p>图6 默认的主页效果</p>
+
+<p>修改仓库根目录下的“index.html ”文件，即可修改主页的效果。其中自动更新的文件列表会出现在“最新博文”的下方。而“关于我”“查找”“标签”这几个网页，要在“_pages”文件中修改。关于这个网站的基本信息，需修改“_confi g.yml ”文件。</p>
+
+<p>那么，如何上传文档自动更新主页呢？只要将文件按“年-月-日-标题”的格式命名，上传到相应的文件夹下即可，如“2020-04-01-虚谷计划简介.doc x”。其中，Word文件要上传到“_word”文件夹，Mark Down格式和网页格式的文档，要上传到“_post s”文件夹中，jupy ter文件则要上传到“_notebooks”文件夹。</p>
+
+<p>建站实践——虚谷计划网站 </p>
+
+<p>按照上述的方式，笔者给“虚谷计划”建立了一个网站。先建立一个名为“ vvp lan”的organizations（组织），然后建一个名为“vvplan.github.io”的仓库。</p>
+
+<p>为了访问方便，笔者设置了cname（别名），将域名www.vvplan.cn指向到这里。</p>
+
+<p>虚谷计划下面有四个项目，笔者对应分别建立了四个具备FastPages功能的仓库，逐一填写密钥。然后，邀请虚谷计划组委会的成员加入这个组织。现在，更新网站也可以像Git Hub中的其他项目开发一样，采用协同工作的形式，权限设置非常灵活。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image7.png" alt="" /></p>
+
+<p>图 7 基于GitHub Pages建的虚谷计划网站</p>
+
+<p> 结  语</p>
+
+<p>Git Hub Pages是“开源”的，如果有人喜欢你的网站结构或者内容，只要按下“fork”，就能将你的网站clone（克隆）一份。这样一来，就有越来越多的人从这样的分享过程中受益。</p>
+
+<p>除此之外，你还能从这个建站的过程中深刻理解文档格式，体会到标记语言（HTML 、Mark Down、XML、JSON 和YAML等）在信息交流中的重要意义。</p>
+
+<p>这些文档的转换，都是用Python脚本代码来完成的，还可以研究转换脚本，感受Pyt hon的强大功能。</p>
+
+<p>当然，最重要的收获是协同共建的机制，Git Hub能够记录所有用户的操作，分布式的开发和集中式的管理，让协同开发变得有序而灵活。</p>
+
+<p><img src="/myblog/assets/img/2020-06-10-技术探索·你会用GitHub协同共建一个“开源”网站吗？/media/image8.tmp" alt="" /></p>
+
+  </div><a class="u-url" href="/myblog/2020/06/10/%E6%8A%80%E6%9C%AF%E6%8E%A2%E7%B4%A2-%E4%BD%A0%E4%BC%9A%E7%94%A8GitHub%E5%8D%8F%E5%90%8C%E5%85%B1%E5%BB%BA%E4%B8%80%E4%B8%AA-%E5%BC%80%E6%BA%90-%E7%BD%91%E7%AB%99%E5%90%97.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/myblog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/myblog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/myblog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>我的第一个Blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/EasonQYS" title="EasonQYS"><svg class="svg-icon grey"><use xlink:href="/myblog/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
